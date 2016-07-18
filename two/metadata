@@ -1,0 +1,10 @@
+[General]
+name=/foo/two
+description=First
+license=GPLv2+
+
+[restraint]
+entry_point=./dummy.sh
+max_time=60m
+repoRequires=dependency
+
