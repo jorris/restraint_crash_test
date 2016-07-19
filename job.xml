@@ -1,0 +1,18 @@
+<job retention_tag="60days">
+  <whiteboard>Crash test</whiteboard>
+  <recipeSet>
+    <recipe id="1">
+      <autopick random="false"/>
+      <task name="/foo/one" role="None">
+        <fetch url="git://localhost/users/jorris/restraint_crash_test.git#one"/>
+      </task>
+      <task name="/foo/two" role="None">
+        <fetch url="git://localhost/users/jorris/restraint_crash_test.git#two"/>
+      </task>
+      <task name="/foo/three" role="None">
+        <fetch url="git://localhost/users/jorris/restraint_crash_test.git#three"/>
+      </task>
+      <reservesys duration="86400"/>
+    </recipe>
+  </recipeSet>
+</job>
