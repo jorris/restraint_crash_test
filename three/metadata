@@ -1,6 +1,6 @@
 [General]
 name=/foo/three
-description=First
+description=Three
 license=GPLv2+
 
 [restraint]

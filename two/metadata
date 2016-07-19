@@ -1,10 +1,11 @@
 [General]
 name=/foo/two
-description=First
+description=Second
 license=GPLv2+
 
 [restraint]
 entry_point=./dummy.sh
 max_time=60m
+dependencies=curl
 repoRequires=dependency
 
